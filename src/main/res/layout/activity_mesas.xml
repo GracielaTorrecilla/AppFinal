@@ -6,90 +6,98 @@
     android:layout_height="match_parent"
     tools:context=".Mesas">
 
-    <ImageButton
+    <Button
         android:id="@+id/imageButton5"
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:layout_marginStart="64dp"
         android:layout_marginTop="32dp"
+        android:background="@drawable/ic_launcher_background"
+        android:text="MESA 1"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:srcCompat="@drawable/ic_launcher_background" />
+        app:layout_constraintTop_toBottomOf="@+id/textView"/>
 
-    <ImageButton
+    <Button
         android:id="@+id/imageButton6"
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:layout_marginTop="32dp"
+        android:background="@drawable/ic_launcher_background"
+        android:text="MESA 2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.364"
         app:layout_constraintStart_toEndOf="@+id/imageButton5"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:srcCompat="@drawable/ic_launcher_background" />
+        app:layout_constraintTop_toBottomOf="@+id/textView"/>
 
-    <ImageButton
+    <Button
         android:id="@+id/imageButton7"
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:layout_marginStart="64dp"
         android:layout_marginTop="16dp"
+        android:background="@drawable/ic_launcher_background"
+        android:text="MESA 3"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton5"
-        app:srcCompat="@drawable/ic_launcher_background" />
+        app:layout_constraintTop_toBottomOf="@+id/imageButton5"/>
 
-    <ImageButton
+    <Button
         android:id="@+id/imageButton8"
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="64dp"
+        android:background="@drawable/ic_launcher_background"
+        android:text="MESA 4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton6"
-        app:srcCompat="@drawable/ic_launcher_background" />
+        app:layout_constraintTop_toBottomOf="@+id/imageButton6" />
 
-    <ImageButton
+    <Button
         android:id="@+id/imageButton9"
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:layout_marginStart="64dp"
         android:layout_marginTop="16dp"
+        android:background="@drawable/ic_launcher_background"
+        android:text="MESA 5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton7"
-        app:srcCompat="@drawable/ic_launcher_background" />
+        app:layout_constraintTop_toBottomOf="@+id/imageButton7" />
 
-    <ImageButton
+    <Button
         android:id="@+id/imageButton10"
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="64dp"
+        android:background="@drawable/ic_launcher_background"
+        android:text="MESA 6"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton8"
-        app:srcCompat="@drawable/ic_launcher_background" />
+        app:layout_constraintTop_toBottomOf="@+id/imageButton8" />
 
-    <ImageButton
+    <Button
         android:id="@+id/imageButton11"
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:layout_marginStart="64dp"
         android:layout_marginBottom="48dp"
+        android:background="@drawable/ic_launcher_background"
+        android:text="MESA 7"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton9"
-        app:layout_constraintVertical_bias="0.432"
-        app:srcCompat="@drawable/ic_launcher_background" />
+        app:layout_constraintVertical_bias="0.432"/>
 
-    <ImageButton
+    <Button
         android:id="@+id/imageButton12"
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:layout_marginEnd="64dp"
         android:layout_marginBottom="48dp"
+        android:background="@drawable/ic_launcher_background"
+        android:text="MESA 8"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton10"
-        app:layout_constraintVertical_bias="0.448"
-        app:srcCompat="@drawable/ic_launcher_background" />
+        app:layout_constraintVertical_bias="0.448"/>
 
     <TextView
         android:id="@+id/textView"

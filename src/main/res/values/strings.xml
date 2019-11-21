@@ -1,3 +1,35 @@
 <resources>
     <string name="app_name">AppFinal</string>
+    <string-array name="platos">
+        <item>Carne asada</item>
+        <item>Cerdo a la plancha</item>
+        <item>Pechuga a la plancha</item>
+        <item>Bandeja con pollo</item>
+        <item>Sobrebarriga al gusto</item>
+        <item>Pechuga gratinada</item>
+        <item>Costillas BBQ</item>
+        <item>Churrasco</item>
+        <item>Chuleta valluna</item>
+        <item>Pollo a la cordon Bleu</item>
+        <item>Mojarra frita</item>
+        <item>Bagre al gusto</item>
+    </string-array>
+    <string-array name="bebidas">
+        <item>Hit lulo</item>
+        <item>Hit mango</item>
+        <item>Hit tropical</item>
+        <item>Manzana postobon</item>
+        <item>Naranja postobon</item>
+        <item>Pepsi</item>
+        <item>Seven up</item>
+        <item>Mountain dew</item>
+        <item>Colombiana</item>
+        <item>Coca cola</item>
+    </string-array>
+    <string-array name="porciones">
+        <item>Arroz</item>
+        <item>Platano</item>
+        <item>Aguacate</item>
+        <item>Papa a la francesa</item>
+    </string-array>
 </resources>
