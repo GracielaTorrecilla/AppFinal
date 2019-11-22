@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">AppFinal</string>
     <string-array name="platos">
+        <item>Selecione...</item>
         <item>Carne asada</item>
         <item>Cerdo a la plancha</item>
         <item>Pechuga a la plancha</item>
@@ -15,6 +16,7 @@
         <item>Bagre al gusto</item>
     </string-array>
     <string-array name="bebidas">
+        <item>Selecione...</item>
         <item>Hit lulo</item>
         <item>Hit mango</item>
         <item>Hit tropical</item>
@@ -27,6 +29,7 @@
         <item>Coca cola</item>
     </string-array>
     <string-array name="porciones">
+        <item>Selecione...</item>
         <item>Arroz</item>
         <item>Platano</item>
         <item>Aguacate</item>

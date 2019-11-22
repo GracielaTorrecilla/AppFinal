@@ -39,7 +39,7 @@
         android:layout_marginStart="48dp"
         android:layout_marginBottom="228dp"
         android:background="@drawable/ic_launcher_background"
-        android:text="mesera"
+        android:text="cajera"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
